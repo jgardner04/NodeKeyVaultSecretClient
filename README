@@ -1,0 +1,23 @@
+# Azure Key Vault Node Secret Client
+
+I needed a way to quickly grab an individual secret from Key Vault for multiple projects so I created a quick app that grabs the secret and dumps it to a file. This code could easily be modified to use in a larger app as well.
+
+## Needed Items
+
+Before you can use Key Vault in a Node applicaiton you will need 2 things.
+
+* An Azure Key Vault
+* An Azure Active Directory application
+
+## Needed Information
+
+Once you have the above information you will need the following:
+
+* AAD Application ID
+* AAD App Client Secret
+* Key Vault Base URI
+* Key Vault Secret Name
+* Key Vault Secret Version
+* Outfile Name
+
+This information is plugged into a .ENV file. You can find an example of these items in the .ENV.example file. The app will load these values as environmental variables and then use them to connect to the Key Vault.
