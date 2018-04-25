@@ -6,6 +6,7 @@
   "author": "jgardner04 <jonathan.gardner04@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "adal-node": "^0.1.28",
     "azure-keyvault": "^3.0.4-preview",
     "dotenv": "^5.0.1"
   },
