@@ -4,5 +4,16 @@
   "description": "Node application to get secrets from Azure Keyvault and write them to a file",
   "main": "app.js",
   "author": "jgardner04 <jonathan.gardner04@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "azure-keyvault": "^3.0.4-preview",
+    "dotenv": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
 }
