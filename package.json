@@ -1,0 +1,8 @@
+{
+  "name": "secretGetter",
+  "version": "1.0.0",
+  "description": "Node application to get secrets from Azure Keyvault and write them to a file",
+  "main": "app.js",
+  "author": "jgardner04 <jonathan.gardner04@gmail.com>",
+  "license": "MIT"
+}
